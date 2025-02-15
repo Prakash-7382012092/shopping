@@ -22,7 +22,7 @@ const Navbar = () => {
             {/* Desktop Navigation */}
             <ul className='hidden md:flex'>
                 <li className='p-4 text-2xl'><Link to="/">Home</Link></li>
-                <li className='p-4 text-2xl'><a href="/cart">Cart</a></li>
+                <li className='p-4 text-2xl'><Link to="/cart">Cart</Link></li>
                 <li className='p-4 text-2xl'>
                     <Link to="/cart">
                         <span className='text-green-200 text-3xl flex'>
