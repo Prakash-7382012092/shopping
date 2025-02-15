@@ -15,6 +15,9 @@ const Cart = () => {
       {cart.length === 0 ? (
         <p>No items in cart</p>
       ) : (
+<>
+<br/><br/><br/>
+        <h2 className='text-green-700 text-center'>Your Cart </h2>
         <div className="overflow-x-auto md:overflow-hidden">
           <table className="table table-bordered table-responsive table-striped p-4"
             style={{ width: "100%", minWidth: "350px" }}>
@@ -89,8 +92,10 @@ const Cart = () => {
             </tbody>
           </table>
         </div>
+        </>
       )}
     </div>
+  
   );
 };
 
