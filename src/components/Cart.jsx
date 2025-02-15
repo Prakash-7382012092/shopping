@@ -17,7 +17,7 @@ const Cart = () => {
       ) : (
 <>
 <br/>
-        <h2 className='text-green-700 text-center'>Your Cart </h2>
+      
         <div className="overflow-x-auto md:overflow-hidden">
           <table className="table table-bordered table-responsive table-striped p-4"
             style={{ width: "100%", minWidth: "350px" }}>
