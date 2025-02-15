@@ -9,7 +9,7 @@ const Cart = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className="container">
+    <div className="container mt-10">
       <br/><br/><br/> <br/><br/><br/> <br/><br/><br/>
       <h2 className='text-green-700 text-center'>Your Cart </h2>
       {cart.length === 0 ? (
