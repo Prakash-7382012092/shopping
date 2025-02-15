@@ -57,8 +57,8 @@ const Navbar = () => {
                 <AiOutlineClose className="absolute top-2 right-1 text-green-600 text-3xl cursor-pointer" onClick={handleNav} />
 
                 <ul className='p-8 text-2xl'>
-                    <li className='p-2'><Link to="/">Home</Link></li>
-                    <li className='p-2'><Link to="/cart">Cart</Link></li>
+                    <li className='p-2'><Link to="/"  onClick={handleNav}>Home</Link></li>
+                    <li className='p-2'><Link to="/cart"  onClick={handleNav}>Cart</Link></li>
                 </ul>
             </div>
         </div>
