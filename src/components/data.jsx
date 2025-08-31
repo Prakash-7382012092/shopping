@@ -8,13 +8,13 @@ const ItemList = [
     },
     {
       id:2,
-      image:'shopping/photo/prakash2.png',
+      image:'/photo/prakash2.png',
       price:'20',
       title:'Items2'
     },
     {
       id:3,
-      image:'shopping/photo/prakash3.png',
+      image:'/photo/prakash3.png',
       price:'30',
       title:'Item3'
     },
@@ -44,7 +44,7 @@ const ItemList = [
     },
     {
       id:8,
-      image:'shopping/photo/prakash8.png',
+      image:'/photo/prakash8.png',
       price:'60',
       title:'Item6'
     }
