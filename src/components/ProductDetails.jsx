@@ -22,7 +22,7 @@ const ProductDetails = () => {
       <div className="row">
         {/* Product Image */}
         <div className="col-md-6">
-          <img src={`/../${product.image}`} alt={product.name} className="img-fluid rounded shadow" />
+          <img src={product.image} alt={product.name} className="img-fluid rounded shadow" />
           <br/>
         </div>
 

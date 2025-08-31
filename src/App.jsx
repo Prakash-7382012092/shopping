@@ -1,13 +1,12 @@
 import React from 'react';
-import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom';
-
+import { createHashRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Cart from './components/Cart';
 import RootLayout from './components/RootLayout';
 import ProductDetails from './components/ProductDetails';
 
 const App = () => {
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     createRoutesFromElements(
       <Route path='/' element={<RootLayout />}>
         <Route index element={<Home />} />
