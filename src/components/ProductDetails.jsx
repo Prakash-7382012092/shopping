@@ -40,6 +40,7 @@ const ProductDetails = () => {
           >
             Add To Cart
           </button>
+          <br/><br/><br/>
         </div>
       </div>
     </div>
