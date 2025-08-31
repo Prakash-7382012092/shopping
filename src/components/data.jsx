@@ -2,7 +2,7 @@
 const ItemList = [
     {
       id:1,
-      image:'shopping/photo/prakash1.png',
+      image:'/photo/prakash1.png',
       price:'10',
       title:'Item1'              
     },
@@ -20,25 +20,25 @@ const ItemList = [
     },
     {
       id:4,
-      image:'shopping/photo/prakash4.png',
+      image:'/photo/prakash4.png',
       price:'40',
       title:'Item4'
     },
     {
       id:5,
-      image:'shopping/photo/prakash5.png',
+      image:'/photo/prakash5.png',
       price:'50',
       title:'Item5'
     },
     {
       id:6,
-      image:'shopping/photo/prakash6.png',
+      image:'/photo/prakash6.png',
       price:'60',
       title:'Item6'
     },
     {
       id:7,
-      image:'shopping/photo/prakash7.png',
+      image:'/photo/prakash7.png',
       price:'60',
       title:'Item6'
     },
