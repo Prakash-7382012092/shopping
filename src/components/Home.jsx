@@ -119,8 +119,8 @@ const Home = () => {
           </button>
         </h6>
         <h6>Item Price: Rs. {car.price * car.quantity}</h6>
-        <p className="flex items-center cursor-pointer text-red-500">
-          <BiTrash className="text-2xl" onClick={() => handleDel(car.id)} /> 
+        <p className="flex items-center cursor-pointer text-red-500" onClick={() => handleDel(car.id)}>
+          <BiTrash className="text-2xl"  /> 
           <span className="ml-2">Remove Item</span>
         </p>
       </div>

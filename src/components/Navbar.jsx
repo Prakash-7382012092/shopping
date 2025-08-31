@@ -52,7 +52,7 @@ const Navbar = () => {
 
                 <ul className='p-8 text-2xl'>
                     <li className='p-2'><Link to="/" onClick={handleNav}>Home</Link></li>
-                    <li className='p-2'><a href="#experience" onClick={handleNav}>Experience</a></li>
+                  
                     <li className='p-2'><Link to="/cart" onClick={handleNav}>Cart</Link></li>
                 </ul>
             </div>
