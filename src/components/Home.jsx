@@ -49,7 +49,7 @@ const Home = () => {
                  <Link to={`/product/${da.id}`} className="no-underline text-dark">
              
                 <img
-                  src={`shopping/${da.image}`}
+                  src={da.image}
                   className="img-fluid h-[200px] w-100 object-cover"
                   alt={da.name || "Product"}
                 />
