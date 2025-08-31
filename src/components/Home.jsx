@@ -55,6 +55,10 @@ const Home = () => {
                 />
                 </Link>
                 <center>
+                  <h3 className="d-flex justify-content-center align-items-center text-center text-success mt-2">
+                   {da.title}
+                  </h3>
+
                   <h2 className="d-flex justify-content-center align-items-center text-center mt-2">
                     Rs. <FaIndianRupeeSign /> {da.price}
                   </h2>
@@ -88,6 +92,7 @@ const Home = () => {
         <img src={car.image} alt="" className="rounded-[10px] h-full w-full object-cover" />
       </div>
       <div className="flex flex-col ml-4 flex-grow">
+        
         <h6 className="flex items-center">
           Price:&nbsp;&nbsp;&nbsp; <FaIndianRupeeSign /> {car.price}
         </h6>

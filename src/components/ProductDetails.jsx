@@ -28,11 +28,11 @@ const ProductDetails = () => {
 
         {/* Product Info */}
         <div className="col-md-6">
-          <h1>{product.name}</h1>
+          <h1 className="text-success">{product.title}</h1>
           <h3 className="d-flex align-items-center">
             Rs. <FaIndianRupeeSign /> {product.price}
           </h3>
-          <p className="mt-3">{product.description || "No description available."}</p>
+          <p className="mt-3">{product.description || ""}</p>
 
           <button
             className="btn btn-success mt-3"
