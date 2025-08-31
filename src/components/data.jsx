@@ -43,7 +43,7 @@ const ItemList = [
       title:'Item6'
     },
     {
-      id:6,
+      id:8,
       image:'src/photo/prakash8.png',
       price:'60',
       title:'Item6'

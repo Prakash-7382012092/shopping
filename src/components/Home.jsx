@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaIndianRupeeSign } from 'react-icons/fa6';
 import { useDispatch, useSelector } from 'react-redux';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -45,11 +46,14 @@ const Home = () => {
           {data.map((da) => (
             <div className="col-6 col-md-3 col-lg-3 mt-3 pt-3 pb-3" key={da.id}>
               <div className="card p-2 shadow-sm">
+                 <Link to={`/product/${da.id}`} className="no-underline text-dark">
+             
                 <img
                   src={da.image}
                   className="img-fluid h-[200px] w-100 object-cover"
                   alt={da.name || "Product"}
                 />
+                </Link>
                 <center>
                   <h2 className="d-flex justify-content-center align-items-center text-center mt-2">
                     Rs. <FaIndianRupeeSign /> {da.price}
